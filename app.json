@@ -1,9 +1,9 @@
 {
-  "name": "Botkit Starter Kit",
-  "description": "A starting point for building custom Slack applications",
-  "repository": "https://github.com/howdyai/botkit-starter-slack",
+  "name": "Welcome Cat",
+  "description": "Onboarding Slackbot for Team Laser Cats",
+  "repository": "https://github.com/elowing/welcome_cat",
   "keywords": ["node", "bots", "slack","botkit"],
-  "website": "https://studio.botkit.ai/",
+  "website": "https://welcome-cat.herokuapp.com/",
   "success_url":"/",
   "addons":[
     {
@@ -12,15 +12,11 @@
     }
   ],
   "env": {
-      "clientId": {
-          "description": "Client ID provided by Slack"
-      },
-      "clientSecret": {
-          "description": "Client Secret provided by Slack"
-      },
-      "studio_token": {
-          "description": "Token associated with your bot in Botkit Studio",
-          "required":false
-      }
+    "clientId": {
+      "description": "Client ID provided by Slack"
+    },
+    "clientSecret": {
+      "description": "Client Secret provided by Slack"
+    }
   }
 }
